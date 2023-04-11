@@ -1,12 +1,21 @@
 package MDA;
+import MDA.State.*;
 
 public class MDA_EFSM {
 	
 	public int k = 0;
 	public int[] A;
 	
+	private State S;
+	private State[] LS;
+	
 	public MDA_EFSM() {
 		
+	}
+	
+	public void changeState(int s) {
+		S = LS[s];
+		System.out.println("New state: "+ S.toString());
 	}
 	
 	public void create() {
