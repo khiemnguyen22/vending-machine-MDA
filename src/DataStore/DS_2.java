@@ -6,6 +6,13 @@ public class DS_2 extends DataStore {
 	private float price;
 	private int cf;
 
+	public DS_2() {
+		this.temp_p = 0f;
+		this.temp_v = 0;
+		this.price = 0;
+		this.cf = 0;
+	}
+	
 	public float getTemp_p() {
 		return this.temp_p;
 	}
