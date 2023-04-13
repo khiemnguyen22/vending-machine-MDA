@@ -21,12 +21,20 @@ public class DS_1 extends DataStore{
 		this.temp_p = p;
 	}
 	
-	public float getTemp_v() {
+	public float getTemp_v1() {
 		return this.temp_v;
 	}
 	
+	public int getTemp_v2() {
+		return 0;
+	}	
+	
 	public void setTemp_v(float v) {
 		this.temp_v = v;
+	}
+	
+	public void setTemp_v(int v) {
+
 	}
 	
 	public float getPrice() {
@@ -37,12 +45,20 @@ public class DS_1 extends DataStore{
 		this.price = p;
 	}
 	
-	public float getCF() {
+	public float getCF1() {
 		return this.cf;
+	}
+	
+	public int getCF2() {
+		return 0;
 	}
 	
 	public void setCF(float c) {
 		this.cf = c;
+	}
+	
+	public void setCF(int c) {
+		
 	}
 
 }
