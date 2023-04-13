@@ -1,5 +1,8 @@
 package AbstractFactory;
+import DataStore.*;
 
-public class AF {
+public abstract class AF {
 
+	public abstract DataStore getDataStore();
+	
 }
