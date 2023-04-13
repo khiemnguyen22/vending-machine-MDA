@@ -1,5 +1,6 @@
 package OP.Strategy;
 
-public class DisposeAdditive {
-
+public abstract class DisposeAdditive {
+	
+	public abstract void disposeAdditive();
 }

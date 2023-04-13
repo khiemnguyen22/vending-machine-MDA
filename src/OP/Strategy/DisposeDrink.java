@@ -1,5 +1,7 @@
 package OP.Strategy;
 
-public class DisposeDrink {
 
+public abstract class DisposeDrink {
+	
+	public abstract void disposeDrink(int d);
 }
