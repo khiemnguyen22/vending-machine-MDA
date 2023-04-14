@@ -6,10 +6,6 @@ public class ZeroCF1 extends ZeroCF {
 
 	private DataStore ds;
 	
-	public ZeroCF1(DataStore ds) {
-		this.ds = ds;
-	}
-	
 	public DataStore getDataStore() {
 		return this.ds;
 	}

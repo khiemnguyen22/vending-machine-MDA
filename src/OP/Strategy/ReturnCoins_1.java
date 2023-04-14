@@ -5,9 +5,6 @@ import DataStore.DataStore;
 public class ReturnCoins_1 extends ReturnCoins{
 	private DataStore ds;
 	
-	public ReturnCoins_1(DataStore ds) {
-		this.ds = ds;
-	}
 	
 	public DataStore getDataStore() {
 		return this.ds;

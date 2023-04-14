@@ -5,10 +5,6 @@ import DataStore.DataStore;
 public class IncreaseCF_1 extends IncreaseCF {
 	private DataStore ds;
 	
-	public IncreaseCF_1(DataStore ds) {
-		this.ds = ds;
-	}
-	
 	public DataStore getDataStore() {
 		return this.ds;
 	}

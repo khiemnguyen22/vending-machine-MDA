@@ -5,10 +5,6 @@ import DataStore.*;
 public class StorePrice_1 extends StorePrice {
 	private DataStore ds;
 	
-	public StorePrice_1(DataStore ds) {
-		this.ds = ds;
-	}
-	
 	public DataStore getDataStore() {
 		return ds;
 	}
