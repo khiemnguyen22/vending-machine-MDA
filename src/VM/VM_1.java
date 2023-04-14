@@ -19,7 +19,7 @@ public class VM_1 {
 	
 	public void coin(float v) {
 		d.setTemp_v(v);
-		if(d.getCF() + v >= d.getPrice()) {
+		if(d.getCF1() + v >= d.getPrice()) {
 			m.coin(1);
 		} else {
 			m.coin(0);

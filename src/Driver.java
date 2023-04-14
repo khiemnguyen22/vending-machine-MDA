@@ -1,11 +1,20 @@
-import java.util.Scanner; 
+import java.util.Scanner;
+
+import AbstractFactory.*;
+import DataStore.*;
+import MDA.*;
+import OP.*;
 import VM.*;
 
 public class Driver{
 	
 	public static void main(String args[]){ 
-		// partial driver  
-		VM_1 vm1 = new VM_1();  
+		// partial driver 
+		AF af = new CF1();
+		DataStore ds = af.getDataStore();
+		OP op = new OP(af, ds);
+		MDA_EFSM m = new MDA_EFSM(op);
+		VM_1 vm1 = new VM_1(m);  
 		int p;  
 		float v;  
 		int n;  
