@@ -18,7 +18,7 @@ public class Idle extends State {
 			op.increaseCF();
 		} else if(f == 1) {
 			op.increaseCF();
-			m.A = new int[5];
+			m.A = new int[3];
 			m.changeState(3);
 		}
 	}

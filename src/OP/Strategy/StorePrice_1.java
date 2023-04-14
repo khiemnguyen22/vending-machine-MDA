@@ -18,9 +18,9 @@ public class StorePrice_1 extends StorePrice {
 	}
 	
 	public void storePrice() {
-		float price = ds.getPrice();
+		float price = ds.getTemp_p();
 		ds.setPrice(price);
-		System.out.println("Item price: " + ds.getPrice());
+		System.out.println("Stored. Item price: " + ds.getPrice());
 	}
 
 }

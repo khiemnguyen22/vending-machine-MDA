@@ -2,7 +2,7 @@ package OP.Strategy;
 
 import DataStore.DataStore;
 
-public class StorePrice_2 {
+public class StorePrice_2 extends StorePrice {
 	private DataStore ds;
 	
 	public StorePrice_2(DataStore ds) {
@@ -18,8 +18,8 @@ public class StorePrice_2 {
 	}
 	
 	public void storePrice() {
-		float price = ds.getPrice();
+		float price = ds.getTemp_p();
 		ds.setPrice(price);
-		System.out.println("Item price: " + ds.getPrice());
+		System.out.println("Stored. Item price: " + ds.getPrice());
 	}
 }
