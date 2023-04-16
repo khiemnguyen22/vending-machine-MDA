@@ -23,6 +23,7 @@ public class Idle extends State {
 		}
 	}
 	
+	
 	public void insert_cups(int n) {
 		if (n > 0) {
 			m.k += n;
