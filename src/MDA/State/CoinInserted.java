@@ -36,6 +36,7 @@ public class CoinInserted extends State {
 			op.disposeDrink(d);
 			op.disposeAdditive(m.A);
 			m.k--;
+			System.out.println("Remaining cup: "+ m.k);
 			op.zeroCF();
 			m.changeState(2);
 		} else {

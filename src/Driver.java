@@ -101,7 +101,7 @@ public class Driver{
 			int v;  
 			int n;  
 			int x;  
-			System.out.println("                          Vending Machine-1");  
+			System.out.println("                          Vending Machine-2");  
 			System.out.println("                  MENU of Operations");  
 			System.out.println("          0. CREATE(float p)");  
 			System.out.println("          1. COIN(int v)");  
@@ -119,7 +119,7 @@ public class Driver{
 			  
 			while (ch != 'q')  {
 				System.out.println("  Select Operation: ");
-				System.out.println("0-create,1-coin,2-sugar,3-tea,4-latte,5-insert_cups,6-set_price,7-cancel");
+				System.out.println("0-create,1-coin,2-sugar,3-cream,4-coffee,5-insert_cups,6-set_price,7-card,8-cancel");
 				ch = sc.next().charAt(0); 
 				switch (ch){
 					case '0': 

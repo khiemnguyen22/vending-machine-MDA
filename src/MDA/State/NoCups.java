@@ -15,6 +15,7 @@ public class NoCups extends State {
 	
 	public void coin(int f) {
 		op.returnCoins();
+		System.out.println(f);
 	}
 	
 	public void insert_cups(int n) {
