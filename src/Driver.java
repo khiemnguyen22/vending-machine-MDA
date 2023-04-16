@@ -14,7 +14,7 @@ public class Driver{
 		DataStore ds = af.getDataStore();
 		OP op = new OP(af, ds);
 		MDA_EFSM m = new MDA_EFSM(op);
-		VM_1 vm1 = new VM_1(m);  
+		VM_1 vm1 = new VM_1(m, ds);  
 		int p;  
 		float v;  
 		int n;  

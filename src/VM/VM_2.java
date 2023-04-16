@@ -5,10 +5,11 @@ import DataStore.*;
 public class VM_2 {
 	
 	private MDA_EFSM m;
-	private DS_2 d;
+	private DataStore d;
 	
-	public VM_2(MDA_EFSM m) {
+	public VM_2(MDA_EFSM m, DataStore d) {
 		this.m = m;
+		this.d = d;
 	}
 	
 	public void CREATE(float p) {
