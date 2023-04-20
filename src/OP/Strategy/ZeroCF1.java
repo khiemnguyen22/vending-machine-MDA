@@ -15,7 +15,7 @@ public class ZeroCF1 extends ZeroCF {
 	}
 	
 	public void zeroCF() {
-		ds.setCF(0);
+		ds.setCF(0.0f);
 		System.out.println("Set CF to 0");
 	}
 }

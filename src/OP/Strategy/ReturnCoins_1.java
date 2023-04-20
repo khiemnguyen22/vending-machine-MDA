@@ -15,7 +15,7 @@ public class ReturnCoins_1 extends ReturnCoins{
 	}
 	
 	public void returnCoins() {
-		System.out.print("Return coin inserted: ");
+		System.out.println("Return coin inserted: ");
 	}
 	
 
