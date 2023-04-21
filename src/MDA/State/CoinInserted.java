@@ -6,7 +6,6 @@ import OP.OP;
 public class CoinInserted extends State {
 
 	
-	
 	public CoinInserted(MDA_EFSM m, OP op) {
 		super(m, op);
 	}
