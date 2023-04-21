@@ -4,12 +4,11 @@ import MDA.MDA_EFSM;
 import OP.OP;
 
 public class CoinInserted extends State {
-	private MDA_EFSM m;
-	private OP op;
+
+	
 	
 	public CoinInserted(MDA_EFSM m, OP op) {
-		this.m = m;
-		this.op = op;
+		super(m, op);
 	}
 	
 	public void cancel() {

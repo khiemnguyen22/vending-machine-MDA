@@ -1,7 +1,17 @@
 package MDA.State;
 
-public class State {
+import MDA.MDA_EFSM;
+import OP.OP;
 
+public class State {
+	
+	protected MDA_EFSM m;
+	protected OP op; 
+	
+	public State(MDA_EFSM m, OP op) {
+		this.m = m;
+		this.op = op;
+	}
 	public void create() {
 		
 	}

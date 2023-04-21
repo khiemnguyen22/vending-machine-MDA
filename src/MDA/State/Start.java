@@ -4,12 +4,9 @@ import OP.*;
 
 public class Start extends State {
 
-	private MDA_EFSM m;
-	private OP op;
 	
 	public Start(MDA_EFSM m, OP op) {
-		this.m = m;
-		this.op = op;
+		super(m, op);
 	}
 	
 	public void create() {

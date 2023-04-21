@@ -5,12 +5,9 @@ import OP.OP;
 
 public class NoCups extends State {
 	
-	private MDA_EFSM m;
-	private OP op;
 	
 	public NoCups(MDA_EFSM m, OP op) {
-		this.m = m;
-		this.op = op;
+		super(m, op);
 	}
 	
 	public void coin(int f) {
