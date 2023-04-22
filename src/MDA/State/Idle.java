@@ -7,7 +7,24 @@ public class Idle extends State {
 
 	
 	public Idle(MDA_EFSM m, OP op) {
-		super(m, op);
+		this.m = m;
+		this.op = op;
+	}
+	
+	public void create() {
+		
+	}
+	
+	public void cancel() {
+		
+	}
+	
+	public void dispose_drink(int d) {
+		
+	}
+	
+	public void additive(int a) {
+			
 	}
 	
 	public void coin(int f) {

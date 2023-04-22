@@ -7,7 +7,24 @@ public class CoinInserted extends State {
 
 	
 	public CoinInserted(MDA_EFSM m, OP op) {
-		super(m, op);
+		this.m = m;
+		this.op = op;
+	}
+	
+	public void create() {
+		
+	}
+	
+	public void card() {
+		
+	}
+	
+	public void set_price() {
+		
+	}
+	
+	public void insert_cups(int n) {
+		
 	}
 	
 	public void cancel() {

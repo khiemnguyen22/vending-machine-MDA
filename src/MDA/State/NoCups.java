@@ -7,7 +7,32 @@ public class NoCups extends State {
 	
 	
 	public NoCups(MDA_EFSM m, OP op) {
-		super(m, op);
+		this.m = m;
+		this.op = op;
+	}
+	
+	public void card() {
+		
+	}
+	
+	public void set_price() {
+		
+	}
+	
+	public void dispose_drink(int d) {
+		
+	}
+	
+	public void additive(int a) {
+		
+	}
+	
+	public void create() {
+		
+	}
+	
+	public void cancel() {
+		
 	}
 	
 	public void coin(int f) {
