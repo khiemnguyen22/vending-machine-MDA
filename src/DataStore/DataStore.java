@@ -1,5 +1,6 @@
 package DataStore;
 
+// Data store
 public abstract class DataStore {
 
 	public abstract float getTemp_p();

@@ -2,6 +2,8 @@ package AbstractFactory;
 import DataStore.*;
 import OP.Strategy.*;
 
+// Abstract Factory pattern
+
 public abstract class AF {
 
 	public abstract DataStore getDataStore();

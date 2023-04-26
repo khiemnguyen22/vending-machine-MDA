@@ -17,15 +17,19 @@ public class Driver{
 		System.out.println("          2. Vending machine 2");
 		in = sc.next().charAt(0);
 		
+		// start vending machine 1
 		if (in == '1') {
+			// initialize Concrete Factory
 			AF af = new CF1();
 			DataStore ds = af.getDataStore();
+			
+			// initialize Input, Output processor, and VM-1
 			OP op = new OP(af, ds);
 			MDA_EFSM m = new MDA_EFSM(op);
 			VM_1 vm1 = new VM_1(m, ds);  
-			float p;  
-			float v;  
-			int n;  
+			float p;  // handle price input
+			float v;  // handle coin input
+			int n;  // handle cup input
 			System.out.println("                          Vending Machine-1");  
 			System.out.println("                  MENU of Operations");  
 			System.out.println("          0. create(int)");  
@@ -40,7 +44,8 @@ public class Driver{
 			System.out.println("  Please make a note of these operations");  
 			System.out.println("           Vending Machine-1 Execution");  
 			Character ch = new Character('1');      
-			  
+			
+			// application loop
 			while (ch != 'q')  {
 				System.out.println("  Select Operation: ");
 				System.out.println("0-create,1-coin,2-sugar,3-tea,4-latte,5-insert_cups,6-set_price,7-cancel");
@@ -91,16 +96,22 @@ public class Driver{
 			} //endwhile
 		} // end vm - 1
 		
+		// Start vending machine 2
 		if (in == '2') {
+			
+			// initialize concrete factory
 			AF af = new CF2();
 			DataStore ds = af.getDataStore();
+			
+			// initialize input and output processor with VM-2
 			OP op = new OP(af, ds);
 			MDA_EFSM m = new MDA_EFSM(op);
 			VM_2 vm2 = new VM_2(m, ds);  
-			float p;  
-			int v;  
-			int n;  
-			int x;  
+			
+			float p;  // handle price input
+			int v;  // handle coin input
+			int n;  // handle cups input
+			int x;  // handle card input
 			System.out.println("                          Vending Machine-2");  
 			System.out.println("                  MENU of Operations");  
 			System.out.println("          0. CREATE(float p)");  
@@ -116,7 +127,8 @@ public class Driver{
 			System.out.println("  Please make a note of these operations");  
 			System.out.println("           Vending Machine-1 Execution");  
 			Character ch = new Character('1');      
-			  
+			 
+			// application loop
 			while (ch != 'q')  {
 				System.out.println("  Select Operation: ");
 				System.out.println("0-create,1-coin,2-sugar,3-cream,4-coffee,5-insert_cups,6-set_price,7-card,8-cancel");
@@ -159,7 +171,7 @@ public class Driver{
 						p = sc.nextInt();
 						vm2.SetPrice(p);
 						break;
-					case '7': // cancel
+					case '7': // card
 						System.out.println("  Operation:  CARD(int x)");
 						System.out.println("  Enter value of parameter x:");
 						x = sc.nextInt();

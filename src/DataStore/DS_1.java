@@ -1,5 +1,6 @@
 package DataStore;
 
+// data store for vending machine 1
 public class DS_1 extends DataStore{
 	private float temp_p;
 	private float temp_v;
@@ -25,7 +26,7 @@ public class DS_1 extends DataStore{
 		return this.temp_v;
 	}
 	
-	public int getTemp_v2() {
+	public int getTemp_v2() { // unused operation
 		return 0;
 	}	
 	
@@ -33,7 +34,7 @@ public class DS_1 extends DataStore{
 		this.temp_v = v;
 	}
 	
-	public void setTemp_v(int v) {
+	public void setTemp_v(int v) { // unused operation
 
 	}
 	
@@ -49,7 +50,7 @@ public class DS_1 extends DataStore{
 		return this.cf;
 	}
 	
-	public int getCF2() {
+	public int getCF2() { // unused operation
 		return 0;
 	}
 	
@@ -57,7 +58,7 @@ public class DS_1 extends DataStore{
 		this.cf = c;
 	}
 	
-	public void setCF(int c) {
+	public void setCF(int c) { // unused operation
 		
 	}
 

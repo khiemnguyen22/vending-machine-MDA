@@ -21,7 +21,7 @@ public class DS_2 extends DataStore {
 		this.temp_p = p;
 	}
 	
-	public float getTemp_v1() {
+	public float getTemp_v1() { // unused operation
 		return 0;
 	}
 	
@@ -33,7 +33,7 @@ public class DS_2 extends DataStore {
 		this.temp_v = v;
 	}
 	
-	public void setTemp_v(float v) {
+	public void setTemp_v(float v) { // unused operation
 		
 	}
 	
@@ -49,7 +49,7 @@ public class DS_2 extends DataStore {
 		return this.cf;
 	}
 	
-	public float getCF1() {
+	public float getCF1() { // unused operation
 		return 0;
 	}
 	
@@ -57,7 +57,7 @@ public class DS_2 extends DataStore {
 		this.cf = c;
 	}
 
-	public void setCF(float c) {
+	public void setCF(float c) { // unused operation
 	}
 	
 	
