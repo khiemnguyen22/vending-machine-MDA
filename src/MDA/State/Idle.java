@@ -52,7 +52,7 @@ public class Idle extends State {
 	
 	public void card() {
 		op.zeroCF();
-		m.A = new int[5];
+		m.A = new int[3];
 		m.changeState(3);
 	}
 	
