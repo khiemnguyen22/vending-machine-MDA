@@ -3,6 +3,7 @@ package MDA.State;
 import MDA.MDA_EFSM;
 import OP.OP;
 
+// State pattern
 public abstract class State {
 	
 	protected MDA_EFSM m;

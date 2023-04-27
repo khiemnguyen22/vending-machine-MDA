@@ -2,6 +2,7 @@ package VM;
 import MDA.*;
 import DataStore.*;
 
+// vending machine 1
 public class VM_1 {
 
 	private MDA_EFSM m;

@@ -3,6 +3,7 @@ import DataStore.*;
 import AbstractFactory.*;
 import OP.Strategy.*;
 
+// output processor with strategy pattern
 public class OP {
 	private DataStore ds;
 	private AF af;
